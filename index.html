@@ -44,7 +44,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Daniel Vasquez — Computer Scientist and Engineer</title>
+<title>Daniel Vasquez — Computer Science Engineer</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 
@@ -133,6 +133,8 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/DefaultMoreSidebarTab</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
@@ -149,13 +151,21 @@ Error message and password prompt
 
 <li>$:/language/DefaultNewTiddlerTitle</li>
 
+<li>$:/palette</li>
+
+<li>$:/palettes/MutedCustom</li>
+
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
 
 <li>$:/state/showeditpreview</li>
 
+<li>$:/state/ShowPaletteEditor</li>
+
 <li>$:/state/sidebar</li>
+
+<li>$:/state/tab--1963855381</li>
 
 <li>$:/state/tab--2112689675</li>
 
@@ -183,6 +193,8 @@ Error message and password prompt
 
 <li>Skills</li>
 
+<li>Work History</li>
+
 </ul>
 </p>
 
@@ -193,6 +205,9 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20181217162834390" modified="20181217162849565" title="$:/config/DefaultMoreSidebarTab">
+<pre>$:/core/ui/MoreSideBar/Explorer</pre>
+</div>
 <div created="20181108010623458" modified="20181108010623458" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
@@ -8739,10 +8754,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20181108004525810" modified="20181108013004241" title="$:/DefaultTiddlers">
+<div created="20181108004525810" modified="20181217162957937" title="$:/DefaultTiddlers">
 <pre>Education
 Skills
 Projects
+[[Work History]]
 [[Contact Info]]</pre>
 </div>
 <div title="$:/isEncrypted">
@@ -8751,8 +8767,116 @@ Projects
 <div created="20181108010509302" modified="20181108010510383" title="$:/language/DefaultNewTiddlerTitle">
 <pre>New Entry</pre>
 </div>
-<div created="20181108004519380" modified="20181108010133508" title="$:/SiteSubtitle">
-<pre>Computer Scientist and Engineer</pre>
+<div created="20181217162059926" modified="20181217162156706" title="$:/palette">
+<pre>$:/palettes/MutedCustom</pre>
+</div>
+<div created="20181217162132271" description="Bright tiddlers on a muted background" modified="20181217162735595" name="Muted" tags="$:/tags/Palette" title="$:/palettes/MutedCustom" type="application/x-tiddler-dictionary">
+<pre>alert-background: #ffe476
+alert-border: #b99e2f
+alert-highlight: #881122
+alert-muted-foreground: #b99e2f
+background: #ffffff
+blockquote-bar: &lt;&lt;colour muted-foreground&gt;&gt;
+button-background: 
+button-foreground: 
+button-border: 
+code-background: #f7f7f9
+code-border: #e1e1e8
+code-foreground: #dd1144
+dirty-indicator: #ff0000
+download-background: #34c734
+download-foreground: &lt;&lt;colour background&gt;&gt;
+dragger-background: &lt;&lt;colour foreground&gt;&gt;
+dragger-foreground: &lt;&lt;colour background&gt;&gt;
+dropdown-background: &lt;&lt;colour background&gt;&gt;
+dropdown-border: &lt;&lt;colour muted-foreground&gt;&gt;
+dropdown-tab-background-selected: #fff
+dropdown-tab-background: #ececec
+dropzone-background: rgba(0,200,0,0.7)
+external-link-background-hover: inherit
+external-link-background-visited: inherit
+external-link-background: inherit
+external-link-foreground-hover: inherit
+external-link-foreground-visited: #0000aa
+external-link-foreground: #0000ee
+foreground: #333333
+message-background: #ecf2ff
+message-border: #cfd6e6
+message-foreground: #547599
+modal-backdrop: &lt;&lt;colour foreground&gt;&gt;
+modal-background: &lt;&lt;colour background&gt;&gt;
+modal-border: #999999
+modal-footer-background: #f5f5f5
+modal-footer-border: #dddddd
+modal-header-border: #eeeeee
+muted-foreground: #bbb
+notification-background: #ffffdd
+notification-border: #999999
+page-background: #6f6f70
+pre-background: #f5f5f5
+pre-border: #cccccc
+primary: #29a6ee
+sidebar-button-foreground: &lt;&lt;colour foreground&gt;&gt;
+sidebar-controls-foreground-hover: #000000
+sidebar-controls-foreground: #c2c1c2
+sidebar-foreground-shadow: rgba(255,255,255,0)
+sidebar-foreground: #d3d2d4
+sidebar-muted-foreground-hover: #444444
+sidebar-muted-foreground: #c0c0c0
+sidebar-tab-background-selected: #6f6f70
+sidebar-tab-background: #666667
+sidebar-tab-border-selected: #999
+sidebar-tab-border: #515151
+sidebar-tab-divider: #999
+sidebar-tab-foreground-selected: 
+sidebar-tab-foreground: #999
+sidebar-tiddler-link-foreground-hover: #444444
+sidebar-tiddler-link-foreground: #d1d0d2
+site-title-foreground: #ffffff
+static-alert-foreground: #aaaaaa
+tab-background-selected: #ffffff
+tab-background: #d8d8d8
+tab-border-selected: #d8d8d8
+tab-border: #cccccc
+tab-divider: #d8d8d8
+tab-foreground-selected: &lt;&lt;colour tab-foreground&gt;&gt;
+tab-foreground: #666666
+table-border: #dddddd
+table-footer-background: #a8a8a8
+table-header-background: #f0f0f0
+tag-background: #d5ad34
+tag-foreground: #ffffff
+tiddler-background: &lt;&lt;colour background&gt;&gt;
+tiddler-border: &lt;&lt;colour background&gt;&gt;
+tiddler-controls-foreground-hover: #888888
+tiddler-controls-foreground-selected: #444444
+tiddler-controls-foreground: #cccccc
+tiddler-editor-background: #f8f8f8
+tiddler-editor-border-image: #ffffff
+tiddler-editor-border: #cccccc
+tiddler-editor-fields-even: #e0e8e0
+tiddler-editor-fields-odd: #f0f4f0
+tiddler-info-background: #f8f8f8
+tiddler-info-border: #dddddd
+tiddler-info-tab-background: #f8f8f8
+tiddler-link-background: &lt;&lt;colour background&gt;&gt;
+tiddler-link-foreground: &lt;&lt;colour primary&gt;&gt;
+tiddler-subtitle-foreground: #c0c0c0
+tiddler-title-foreground: #182955
+toolbar-new-button: 
+toolbar-options-button: 
+toolbar-save-button: 
+toolbar-info-button: 
+toolbar-edit-button: 
+toolbar-close-button: 
+toolbar-delete-button: 
+toolbar-cancel-button: 
+toolbar-done-button: 
+untagged-background: #999999
+very-muted-foreground: #888888</pre>
+</div>
+<div created="20181108004519380" modified="20181217115122567" title="$:/SiteSubtitle">
+<pre>Computer Science Engineer</pre>
 </div>
 <div created="20181108004512843" modified="20181108010118664" title="$:/SiteTitle">
 <pre>Daniel Vasquez</pre>
@@ -8760,8 +8884,14 @@ Projects
 <div created="20181108011118699" modified="20181108011121742" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20181108010636381" modified="20181108012541943" title="$:/state/sidebar">
+<div created="20181217162130691" modified="20181217162130691" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
+</div>
+<div created="20181108010636381" modified="20181217000627531" title="$:/state/sidebar">
+<pre>yes</pre>
+</div>
+<div created="20181217162051736" modified="20181217162056494" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
 <div created="20181108012547526" modified="20181108012722994" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
@@ -8769,13 +8899,13 @@ Projects
 <div created="20181108012551101" modified="20181108012721825" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20181108012729506" modified="20181108012920445" title="$:/state/tab-1749438307">
+<div created="20181108012729506" modified="20181217162947346" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20181108010556403" modified="20181108020733950" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div list="Education Skills Projects [[Contact Info]]" title="$:/StoryList">
+<div list="Education Skills Projects [[Work History]] [[Contact Info]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -8791,19 +8921,19 @@ Projects
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///mnt/sdb1/home/daniel/Documents/Notebooks/DTV96Calibre.github.io/index.html&quot;
+            &quot;text&quot;: &quot;https://dtv96calibre.github.io/&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;dtv96calibre.github.io&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;dtv96calibre.github.io&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;https:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -8811,7 +8941,7 @@ Projects
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/mnt/sdb1/home/daniel/Documents/Notebooks/DTV96Calibre.github.io/index.html&quot;
+            &quot;text&quot;: &quot;/&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -8819,15 +8949,15 @@ Projects
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;file://&quot;
+            &quot;text&quot;: &quot;https://dtv96calibre.github.io&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1366&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;768&quot;
+            &quot;text&quot;: &quot;1080&quot;
         }
     }
 }</pre>
@@ -8950,18 +9080,18 @@ Projects
 * [[Daniel.Vasquez@bucknell.edu|mailto:Daniel.Vasquez@bucknell.edu]]
 * [[https://Twitter.com/DTV_Calibre]]</pre>
 </div>
-<div created="20181108010641316" modified="20181108011143031" title="Education">
-<pre>!! B.S. Computer Science &amp; Engineering @ Bucknell University (2014-2018)
+<div created="20181108010641316" modified="20181217000134716" title="Education">
+<pre>!! B.S. Computer Science &amp; Engineering, Bucknell University (2014-2018)
 * Software Development and Design
 * Programming Languages
 * Computer Architecture
 * Operating Systems
-!! Mechanical Drafting and Design @ Milton Hershey School (2009-2014)
+!! Mechanical Drafting and Design, Milton Hershey School (2009-2014)
 
 
 </pre>
 </div>
-<div created="20181108013740285" modified="20181108015943897" title="Projects">
+<div created="20181108013740285" modified="20181217000151415" title="Projects">
 <pre>Check me out on Github, [[Github.com/DTV96Calibre|https://Github.com/DTV96Calibre]], you'll find projects I've worked on including:
 
 * ''[[pipelined-mips|https://github.com/DTV96Calibre/pipelined-mips]]'', a pipelined MIPS processor implemented with Icarus Verilog
@@ -8976,6 +9106,12 @@ Projects
 * Highly motivated when presented with challenging problems.
 
 * Experience with numerous languages including (but not limited to) JavaScript, Java, C, C++, C#, Python, Lua, Rust, SQL, GDScript, Verilog</pre>
+</div>
+<div created="20181216235616837" modified="20181217000638467" tags="" title="Work History">
+<pre>* ASP.NET Analyst/Software Engineer, RBA Professional Data Systems
+* Research Assistant, Bucknell Department of Chemical Engineering
+* Technician, Bucknell Makerspaces
+* Intern (Mechanical Drafting), Skelly and Loy, Inc.</pre>
 </div>
 
 </div>
