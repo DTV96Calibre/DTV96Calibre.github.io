@@ -139,6 +139,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/config/WikiParserRules/Inline/wikilink</li>
 
 <li>$:/config/WikiParserRules/Pragma/macrodef</li>
@@ -175,6 +177,8 @@ Error message and password prompt
 
 <li>$:/state/tab/sidebar--1835078512</li>
 
+<li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
+
 <li>$:/StoryList</li>
 
 <li>$:/temp/info-plugin</li>
@@ -185,13 +189,33 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>Bulk Debit Card Loader</li>
+
 <li>Contact Info</li>
 
+<li>Daniel Vasquez</li>
+
+<li>Draft of 'Projects'</li>
+
 <li>Education</li>
+
+<li>Hide Edit Date</li>
+
+<li>Payment Processor Launcher</li>
+
+<li>POCO</li>
+
+<li>Professional Projects</li>
+
+<li>Professional Projects - Summaries</li>
 
 <li>Projects</li>
 
 <li>Skills</li>
+
+<li>Synchy</li>
+
+<li>Tax Calculator</li>
 
 <li>Work History</li>
 
@@ -213,6 +237,9 @@ Error message and password prompt
 </div>
 <div created="20181108010604662" modified="20181108010605777" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>show</pre>
+</div>
+<div created="20191010210450560" modified="20191010210450560" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div created="20181108012732918" modified="20181108012732918" title="$:/config/WikiParserRules/Inline/wikilink">
 <pre>disable</pre>
@@ -8754,9 +8781,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20181108004525810" modified="20181217162957937" title="$:/DefaultTiddlers">
-<pre>Education
+<div created="20181108004525810" modified="20191010213149480" title="$:/DefaultTiddlers">
+<pre>[[Daniel Vasquez]]
+Education
 Skills
+[[Professional Projects - Summaries]]
 Projects
 [[Work History]]
 [[Contact Info]]</pre>
@@ -8887,11 +8916,11 @@ very-muted-foreground: #888888</pre>
 <div created="20181217162130691" modified="20181217162130691" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20181108010636381" modified="20181217000627531" title="$:/state/sidebar">
+<div created="20181108010636381" modified="20191010205455108" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20181217162051736" modified="20181217162056494" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Palette</pre>
+<div created="20181217162051736" modified="20191010212828608" title="$:/state/tab--1963855381">
+<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
 <div created="20181108012547526" modified="20181108012722994" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
@@ -8899,13 +8928,16 @@ very-muted-foreground: #888888</pre>
 <div created="20181108012551101" modified="20181108012721825" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20181108012729506" modified="20181217162947346" title="$:/state/tab-1749438307">
+<div created="20181108012729506" modified="20191010213135990" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20181108010556403" modified="20181108020733950" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div list="Education Skills Projects [[Work History]] [[Contact Info]]" title="$:/StoryList">
+<div created="20191010212824472" modified="20191010212826344" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+</div>
+<div list="[[Daniel Vasquez]] Education Skills [[Professional Projects - Summaries]] Projects [[Work History]] [[Contact Info]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -8953,11 +8985,11 @@ very-muted-foreground: #888888</pre>
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1920&quot;
+            &quot;text&quot;: &quot;1366&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1080&quot;
+            &quot;text&quot;: &quot;768&quot;
         }
     }
 }</pre>
@@ -9074,11 +9106,29 @@ very-muted-foreground: #888888</pre>
     }
 }</pre>
 </div>
+<div created="20191010210819497" modified="20191010210852352" title="Bulk Debit Card Loader">
+<pre>Developed contained system for loading third-party-issued debit cards.
+
+Debit card service provided very limited and nonstandard REST-like API with no supported for idempotent operations or other industry standard guarantees.
+
+Implemented system that worked around these limitations providing simple guarantees around duplicate card loads, multiprocessing hazards, and fault resistance.
+</pre>
+</div>
 <div created="20181108012932654" modified="20181108014622425" tags="" title="Contact Info">
 <pre>* Phone: (570)285-4990
 * [[Github.com/DTV96Calibre|https://Github.com/DTV96Calibre]]
 * [[Daniel.Vasquez@bucknell.edu|mailto:Daniel.Vasquez@bucknell.edu]]
 * [[https://Twitter.com/DTV_Calibre]]</pre>
+</div>
+<div created="20191010212702533" modified="20191010212709708" tags="" title="Daniel Vasquez">
+<pre></pre>
+</div>
+<div created="20181108013740285" draft.of="Projects" draft.title="Projects" modified="20191010210940143" title="Draft of 'Projects'">
+<pre>Check me out on Github, [[Github.com/DTV96Calibre|https://Github.com/DTV96Calibre]], you'll find projects I've worked on including:
+
+* ''[[pipelined-mips|https://github.com/DTV96Calibre/pipelined-mips]]'', a pipelined MIPS processor implemented with Icarus Verilog
+* ''[[Flower|https://github.com/BucknellSustainability/Flower]]'', a data collection and visualization system which also supports remote Arduino code deployment and realtime data retrieval
+* ''[[Tetris|https://github.com/DTV96Calibre/Tetris]]'', a clone of the popular puzzle game developed as an exercise in Object Oriented Design and Agile/Scrum Development methodologies</pre>
 </div>
 <div created="20181108010641316" modified="20181217000134716" title="Education">
 <pre>!! B.S. Computer Science &amp; Engineering, Bucknell University (2014-2018)
@@ -9090,6 +9140,41 @@ very-muted-foreground: #888888</pre>
 
 
 </pre>
+</div>
+<div created="20191010213027715" modified="20191010213115396" tags="$:/tags/Stylesheet" title="Hide Edit Date" type="text/css">
+<pre>.tc-story-river .tc-subtitle{ display:none; }</pre>
+</div>
+<div created="20191010210849307" modified="20191010210850611" title="Payment Processor Launcher">
+<pre>Integrated payment processor with client's existing ASP.NET Webform workflow.
+
+Co-developed shared interface for both of our development parties to code against. 
+
+Wrote pages for POSTing the user to the payment processor's webpage and for receiving confirmation POST requests from the payment processor. Advised on limitations involved with the method's security and reliability given the ASP.NET Webform framework and IIS limitations and quirks.</pre>
+</div>
+<div created="20191010205930322" modified="20191010210246324" title="POCO">
+<pre>Plain Old Class Object. Entity Framework allows you to interact with a database as though the records in it were POCOs related to each other through simple property references.</pre>
+</div>
+<div created="20191010212309732" modified="20191010212412226" tags="" title="Professional Projects">
+<pre>Some projects I have been paid to for:
+
+* [[Synchy]]: {{Synchy}}
+
+* [[Tax Calculator]]: {{Tax Calculator}}
+
+* [[Bulk Debit Card Loader]]: {{Bulk Debit Card Loader}}
+
+* [[Payment Processor Launcher]]: {{Payment Processor Launcher}}</pre>
+</div>
+<div created="20191010204826266" modified="20191010212622035" tags="" title="Professional Projects - Summaries">
+<pre>Some projects I have been paid to for:
+
+* [[Synchy]]: Extensive rewrite of database integration tool to support disconnected synchronization.
+
+* [[Tax Calculator]]: Conveniently performs essential tax calculations using familiar plain-old-class-objects ([[POCO]]s).
+
+* [[Bulk Debit Card Loader]]: Developed module for loading third-party-issued debit cards.
+
+* [[Payment Processor Launcher]]: Integrated payment processor with client's existing ASP.NET Webform workflow.</pre>
 </div>
 <div created="20181108013740285" modified="20181217000151415" title="Projects">
 <pre>Check me out on Github, [[Github.com/DTV96Calibre|https://Github.com/DTV96Calibre]], you'll find projects I've worked on including:
@@ -9106,6 +9191,16 @@ very-muted-foreground: #888888</pre>
 * Highly motivated when presented with challenging problems.
 
 * Experience with numerous languages including (but not limited to) JavaScript, Java, C, C++, C#, Python, Lua, Rust, SQL, GDScript, Verilog</pre>
+</div>
+<div created="20191010210709823" modified="20191010210711134" title="Synchy">
+<pre>Extensive rewrite of database integration tool to support disconnected synchronization.
+
+Experimental use of heavily generisized and reflective code in C#. Learned the dangers of going too far with such abstract language features.</pre>
+</div>
+<div created="20191010210744551" modified="20191010210748691" title="Tax Calculator">
+<pre>Conveniently performs essential tax calculations using familiar [[POCO]]s.
+
+Strictly functional code proved to be highly maintainable and reassuring, as short and concise functions allowed for confidence around correctness.</pre>
 </div>
 <div created="20181216235616837" modified="20181217000638467" tags="" title="Work History">
 <pre>* ASP.NET Analyst/Software Engineer, RBA Professional Data Systems
